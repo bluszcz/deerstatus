@@ -10,6 +10,8 @@ Current installation collects temperature and humidity and sends them to InfluxD
 
 ## Software
 
-* [InfluxDB](https://www.influxdata.com/time-series-platform/influxdb/)
+* [InfluxDB](https://www.influxdata.com/time-series-platform/influxdb/) as a time series database
 * [Grafana](https://grafana.com/) or 
-* [Chronograf](https://www.influxdata.com/time-series-platform/chronograf/)
+* [Chronograf](https://www.influxdata.com/time-series-platform/chronograf/) for data visualisation 
+* [Telegraf](https://www.influxdata.com/time-series-platform/telegraf/) optionally to collect some basic metrics (CPU, RAM) from your Raspberry
+
